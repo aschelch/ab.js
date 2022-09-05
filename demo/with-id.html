@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A/B Testing</title>
+    <script src="../dist/ab.min.js"></script>
+    
+</head>
+<body>
+
+    <h1 id="titleA">Hello world (variante A)</h1>
+    <h1 id="titleB">Hi there! (variante B)</h1>
+
+    <p id="textA">This is a test with variant A content</p>
+    <p id="textB">This is a test with variant B content</p>
+  
+    <script>
+        ab({
+            variants: {
+                variantA: ['titleA', 'textA'],
+                variantB: ['titleB', 'textB'],
+            }
+        });
+    </script>
+
+</body>
+</html>

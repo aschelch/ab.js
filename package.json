@@ -1,0 +1,31 @@
+{
+  "name": "ab.js",
+  "version": "1.0.0",
+  "description": "Simple A/B testing JS library",
+  "scripts": {
+    "build": "npx gulp compress"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aschelch/ab.js.git"
+  },
+  "keywords": [
+    "A/B",
+    "testing",
+    "test"
+  ],
+  "author": "Aurélien Schelcher <aurelien.schelcher@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aschelch/ab.js/issues"
+  },
+  "homepage": "https://github.com/aschelch/ab.js#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-rename": "^2.0.0",
+    "gulp-uglify": "^3.0.2",
+    "gulp-wrapper": "^1.0.0",
+    "readable-stream": "^4.1.0"
+  }
+}
